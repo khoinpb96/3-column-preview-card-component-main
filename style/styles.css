@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* body {
+  background-color: #f2f2f2;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.container {
+  margin: 5rem auto;
+  width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.container .col {
+  padding: 2.5rem;
+}
+
+.container .col img {
+  width: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.container .col h2 {
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+  color: #f2f2f2;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.container .col p {
+  font-family: "Lexend Deca", sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.8rem;
+  margin-bottom: 4rem;
+  line-height: 1.2rem;
+}
+
+.container .col button {
+  border: 1.5px solid;
+  background: #f2f2f2;
+  border-radius: 50px;
+  padding: 0.6rem 1.3rem;
+  font-size: 0.7rem;
+  cursor: pointer;
+  font-family: "Lexend Deca", sans-serif;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.container .col button:active {
+  background: none;
+  border: 1.5px solid;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.col1 {
+  background-color: #e38826;
+}
+
+.col2 {
+  background-color: #006970;
+}
+
+.col3 {
+  background-color: #004241;
+}
+
+.btn1 {
+  color: #e38826;
+}
+
+.btn2 {
+  color: #006970;
+}
+
+.btn3 {
+  color: #004241;
+}
+
+@media (max-width: 500px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90%;
+    max-width: 375px;
+  }
+  .container .col {
+    padding: 3.5rem;
+  }
+  .container .col img {
+    width: 75px;
+  }
+  .container .col h2 {
+    font-size: 2.5rem;
+  }
+  .container .col p {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+  }
+  .container .col button {
+    font-size: 1.3rem;
+    padding: 1rem 2rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
